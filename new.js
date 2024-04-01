@@ -38,4 +38,4 @@ function sendRandomImage() {
 }
 
 // Replace with your desired interval (in milliseconds)
-const intervalId = setInterval(sendRandomImage, 3000);
+const intervalId = setInterval(sendRandomImage, 7000);
