@@ -1,5 +1,5 @@
 function getRandomImage() {
-  return fetch("https://lust.scathach.id/pornhub/random")
+  return fetch("http://localhost:3000/pornhub/random")
     .then((response) => response.json())
     .then((result) => {
       return result.data.image;
