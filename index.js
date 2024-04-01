@@ -43,4 +43,4 @@ function sendRandomImage() {
 
 // sendRandomImage();
 
-const intervalId = setInterval(sendRandomImage, 7000);
+const intervalId = setInterval(sendRandomImage, 15000);
